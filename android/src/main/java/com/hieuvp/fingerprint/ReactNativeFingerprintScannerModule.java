@@ -22,7 +22,7 @@ public class ReactNativeFingerprintScannerModule extends ReactContextBaseJavaMod
     private Promise authPromise;
 
     // Constant values to be used in the module
-    private static final int AUTH_REQUEST = 562385; // Random number to verify the activity result returned to the listener is ours
+    private static final int AUTH_REQUEST = 61405; // Random number to verify the activity result returned to the listener is ours
     private static final String E_ACTIVITY_DOES_NOT_EXIST = "E_ACTIVITY_DOES_NOT_EXIST";
     private static final String E_AUTH_CANCELLED = "LAErrorUserCancel";
     private static final String E_FAILED_TO_SHOW_AUTH = "E_FAILED_TO_SHOW_AUTH";
